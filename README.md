@@ -1,3 +1,21 @@
+## create project from cli 
+
+```bash
+curl https://start.spring.io/starter.zip \
+    -d type=maven-project \
+    -d bootVersion=3.2.1 \
+    -d dependencies=web \
+    -d javaVersion=17 \
+    -d name=helloworld \
+    -d artifactId=helloworld \
+    -d baseDir=helloworld \
+    -o helloworld.zip
+unzip helloworld.zip
+cd helloworld
+
+```
+
+
 ## log all env when starting application 
 
 ```
